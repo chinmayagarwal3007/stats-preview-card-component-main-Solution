@@ -1,0 +1,183 @@
+body{
+  background-color: #090B1A;
+  padding: 6.25rem 12rem 6.25rem 12rem;
+  font-size: 0.938rem;
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.div0{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    "div1 div2";
+}
+.div1{
+  background-color: #1B1938;
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 3.125rem;
+  grid-area: div1;
+}
+.div2{
+  grid-area: div2;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.div3{
+  padding-top: 5rem;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "d1 . d3 . d5 ."
+  "d2 . d4 . d6 .";
+}
+.d1{
+  grid-area: d1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.d2{
+  grid-area: d2;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+}
+.d3{
+  grid-area: d3;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.d4{
+  grid-area: d4;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+}
+.d5{
+  grid-area: d5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.d6{
+  grid-area: d6;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+}
+.insights{
+  color: #aa5cdb;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1rem;
+  padding-right: 5rem;
+  line-height: 1.7;
+}
+.img{
+  width: 100%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  height: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .div3{
+    padding-top: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: : auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas:
+    "d1"
+    "d2"
+    "."
+    "d3"
+    "d4"
+    "."
+    "d5"
+    "d6"
+    ".";
+}
+.div0{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "div2"
+    "div1";
+}
+.img{
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  height: 100%;
+}
+.div1{
+  background-color: #1B1938;
+  border-radius: 0rem 0 0.5rem 0.5rem;
+  padding: 1.2rem;
+  grid-area: div1;
+  text-align: center;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+body{
+  background-color: #090B1A;
+  padding: 5rem 2rem 5rem 2rem;
+  font-size: 0.938rem;
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.73rem;
+  padding-right: 0;
+  line-height: 1.7;
+  padding: 0.4rem 1.5rem;
+}
+.d1{
+  grid-area: d1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.d2{
+  grid-area: d2;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+}
+.d3{
+  grid-area: d3;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.d4{
+  grid-area: d4;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+}
+.d5{
+  grid-area: d5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.d6{
+  grid-area: d6;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+}
+}
